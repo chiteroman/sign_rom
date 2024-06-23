@@ -2,9 +2,9 @@ set -e
 
 source build/envsetup.sh
 
-breakfast vayu
+breakfast vayu user
 
-brunch vayu
+brunch vayu user
 
 mka target-files-package otatools
 
